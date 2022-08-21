@@ -60,6 +60,9 @@ public final class MiscDemoScreen extends Screen {
 
         switch (mPage) {
             case 0:
+                listBuilder.addItem(
+                        createRow(getCarContext().getString(R.string.speed_demo_title), new CarSpeedScreen(getCarContext()))
+                );
                 listBuilder.addItem(createRow(getCarContext().getString(R.string.notification_demo),
                         new NotificationDemoScreen(getCarContext())));
                 listBuilder.addItem(createRow(getCarContext().getString(R.string.pop_to_title),

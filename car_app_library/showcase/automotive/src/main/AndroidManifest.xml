@@ -39,6 +39,7 @@
   <uses-permission android:name="android.car.permission.CAR_ENERGY"/>
   <uses-permission android:name="android.car.permission.READ_CAR_DISPLAY_UNITS"/>
   <uses-permission android:name="android.car.permission.CAR_ENERGY_PORTS"/>
+  <uses-permission android:name="android.car.permission.CAR_UX_RESTRICTIONS_CONFIGURATION" />
 
   <!-- Various required feature settings for an automotive app. -->
   <uses-feature

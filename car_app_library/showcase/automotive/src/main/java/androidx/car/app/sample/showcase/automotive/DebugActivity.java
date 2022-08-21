@@ -39,6 +39,10 @@ public class DebugActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.debug_activity);
 
+        //new CarUxRestrictionsConfiguration.Builder()
+        //        .setUxRestrictions(CarDrivingStateEvent.DRIVING_STATE_PARKED, false, UX_RESTRICTIONS_BASELINE)
+        //.build();
+
         mButton = findViewById(R.id.button);
         mTextView = findViewById(R.id.text);
 

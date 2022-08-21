@@ -93,6 +93,8 @@
   <string name="fail_start_nav">Failure starting navigation</string>
   <string name="fail_start_dialer">Failure starting dialer</string>
   <string name="car_hardware_demo_title">Car Hardware Demo</string>
+  <string name="speed_demo_title">Speed Demo</string>
+
 
   <!-- CarHardwareInfoScreen -->
   <string name="car_hardware_info">Car Hardware Information</string>
